@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Global style */
+*{
+   margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Fira Sans;
+}
+.title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+/* section style */
+/* header section */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-contant{
+    display: flex;
+    margin: 0 160px 0 160px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 24px;
+    padding: 80px 100px;
+
+    background: rgb(198, 228, 214);
+    gap: 30px;
+}
+
+.header-contant>.frist>p{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.header-contant>.frist>h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.header-contant>.frist>button{
+    padding: 20px 34px;
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+margin-top: 24px;
+}
+.frist>img{
+    max-width: auto;
+    width: 300px;
+    height: 300px;
+}
+/* header end */
+/* main section */
+/* fist pillers */
+.section-frist{
+    margin: 80px 160px;
+}
+.pillers{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.piller{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    
+}
+.piller>h2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0;
+}
+.piller>p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* end pillers */
+/* The Vision of Future */
+.vision{
+margin: 80px 160px;
+}
+.vision>.title>p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0;
+}
+.futures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+.future{
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    margin: 0 24px;
+}
+.future>h2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0;
+}
+.future>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.future>button{
+    border-radius: 8px;
+     margin: 24px 0;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+/* Dr. Muhammad Yunus */
+.yunus{
+    margin: 80px 160px;
+    padding: 48px 24px 48px 24px;
+    
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+.yunus>p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.yunus>h2{
+   margin-top: 12px;
+   margin-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+/* Your Opinion Matters */
+.matters{
+    margin: 80px 160px;
+}
+.contaniear{
+    
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.openion-box{
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+}
