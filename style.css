@@ -32,6 +32,7 @@ margin-bottom: 30px;
     letter-spacing: 0%;
     text-align: left;
     border: none;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: aqua;
@@ -50,7 +51,7 @@ nav>p{
     font-size: 30px;
     font-weight: 700;
     line-height: 38px;
-   
+    
     margin: 0px 10px;
 }
 nav>button>a{
@@ -71,6 +72,7 @@ width: 116px;
 height: 52px;
 align-items: center;
 margin: 0px 10px;
+cursor: pointer;
 
 }
 .header-contant{
@@ -108,6 +110,7 @@ text-align: left;
 .header-contant>.frist>button{
     padding: 20px 34px;
     border-radius: 8px;
+    cursor: pointer;
 
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
@@ -330,6 +333,7 @@ select{
    letter-spacing: 0%;
    text-align: left;
    border: none; 
+   cursor: pointer;
 }
 .resent-btn:hover{
     background: rgb(6, 63, 49);
@@ -476,6 +480,7 @@ text-align: center;
 border: none;
 margin: 0;
 outline: none;
+cursor: pointer;
 
 }
 .subscribe{
@@ -522,7 +527,7 @@ footer>h1{
 footer>div{
    
 
-   margin-top: 64px;
+   margin-top: 60px;
    text-align: center;
    gap: 20px;
    display: flex;
@@ -532,4 +537,8 @@ footer>div{
 footer>div>img{
   
 
+}
+hr{
+    opacity: 0.2;
+    margin-top: 20px;
 }
