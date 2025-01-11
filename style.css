@@ -462,7 +462,8 @@ padding: 80px 100px 80px 100px;
     background: rgb(255, 255, 255);
     border: none;
     flex-grow: 1;
-    
+    width: 500px;
+
     
 }
 .newslatter> div>input::placeholder {
@@ -485,6 +486,7 @@ cursor: pointer;
 }
 .subscribe{
     display: flex;
+    
 
 }
 .newslatter> div>button:hover {
