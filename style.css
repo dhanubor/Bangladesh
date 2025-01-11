@@ -19,11 +19,59 @@ letter-spacing: 0%;
 text-align: left;
 margin-bottom: 30px;
 }
+.btn{
+    border-radius: 8px;
+     margin: 24px 0;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.btn:hover{
+    background-color: aqua;
+}
 /* section style */
 /* header section */
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 20px 160px;
+    
+}
+nav>p{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+   
+    margin: 0px 10px;
+}
+nav>button>a{
+    text-decoration: none;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-weight: bold;
+
+}
+nav>button:hover{
+    background-color: #aae4ee;
+}
+nav>button{
+    box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+width: 116px;
+height: 52px;
+align-items: center;
+margin: 0px 10px;
+
 }
 .header-contant{
     display: flex;
@@ -72,6 +120,10 @@ text-align: left;
 border: none;
 margin-top: 24px;
 }
+.header-contant>.frist>button:hover{
+    background-color: #28a074;
+    transition: 1s;
+}
 .frist>img{
     max-width: auto;
     width: 300px;
@@ -118,6 +170,19 @@ text-align: left;
 }
 /* end pillers */
 /* The Vision of Future */
+
+.frist1{
+    background: rgb(9, 161, 92) 
+}
+.frist1:hover{
+    background-color: aqua;
+}
+.frist3{
+    background: rgb(255, 194, 57)
+}
+.frist3:hover{
+    background-color: aqua;
+}
 .vision{
 margin: 80px 160px;
 }
@@ -165,22 +230,12 @@ margin: 12px 0;
     letter-spacing: 0%;
     text-align: left;
 }
-.future>button{
-    border-radius: 8px;
-     margin: 24px 0;
-    background: rgb(84, 144, 245);
-    padding: 11px 20px 11px 20px;
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
-    border: none;
-}
+
 /* Dr. Muhammad Yunus */
 .yunus{
+     background: rgb(255, 255, 255);
+   background-image: url(./assets/quote-bg.png);
+   background-repeat: no-repeat;
     margin: 80px 160px;
     padding: 48px 24px 48px 24px;
     
@@ -188,7 +243,7 @@ margin: 12px 0;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 
-    background: rgb(255, 255, 255);
+   
 }
 .yunus>p{
     color: rgba(14, 14, 14, 0.8);
@@ -257,6 +312,24 @@ select{
     font-size: 14px;
 }
 /* Recent News */
+.resent-btn{
+    border-radius: 8px;
+    margin: 24px 0;
+    background: rgb(0, 106, 80);
+   padding: 11px 20px 11px 20px;
+   color: rgb(255, 255, 255);
+   font-family: Fira Sans;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 19px;
+   letter-spacing: 0%;
+   text-align: left;
+   border: none; 
+}
+.resent-btn:hover{
+    background: rgb(6, 63, 49);
+    transition: 1s;
+}
 .news>p{
     margin: 12px 0px;
     color: rgba(14, 14, 14, 0.7);
@@ -266,11 +339,185 @@ select{
     line-height: 24px;
 }
 .contant-news{
-    display: grid;
-    grid-template-columns: 75% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
     border-radius: 24px;
+    margin: 20px 0;
+    
+    background: rgb(255, 255, 255);
+    }
+    .contant-news>.photo >img{
+        position: static;
+        width: 408px;
+        height: 306px;
+        border-radius: 24px;
+    } 
+ .description>p{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+ }  
+ .description{
+    width: 744px;
+    height: 290px;
+    
+ }  
+ .sub-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    argin: 12px 0px;
+ }
+ /* Donate Today */
+ .donate{
+    margin: 80px 160px;
+ }
+ .donate>h1{
+    text-align: center;
+ }
+ .donate>p{
+    text-align: center;
+    margin: 0px 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+ }
+ .money-card{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    gap: 24px;
+    
+ }
+ .money{
+    box-sizing: border-box;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
 
     background: rgb(255, 255, 255);
-    gap: 32;
-    padding: 48px;
+ }
+ .money:hover{
+    background-color: #b3e2e0;
+ }
+ .money>h1{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
     }
+    .toko{
+        background: rgb(198, 228, 214);
+    }
+    .taka{
+        border: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+        background: rgb(255, 255, 255);
+        margin: 32px 0px;
+        width: 1032px;
+        height: 64px;
+    } 
+ .sub-sutton{
+    text-align: center;
+ }   
+::placeholder{
+    text-align: center;
+}
+.newslatter{
+    border-radius: 24px;
+    margin: 80px 160px;
+
+
+background: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+}
+.newslatter>input{
+    width: 600px;
+   
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+    border: none;
+    flex: 1;
+    margin: 0;
+}
+.newslatter>input::placeholder {
+    color: #aaa;
+}
+.newslatter>button{
+    order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+padding: 18px 40px 18px 40px;
+text-align: center;
+border: none;
+margin: 0;
+outline: none;
+
+}
+.newslatter>button:hover {
+    background-color: #005f3e;
+}
+.title-news{
+    margin: 16px 0px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.newslatter>p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 16px 0px;
+}
+/* footer */
+footer{
+    padding: 50px 160px 50px 160px;
+    background: rgb(255, 255, 255);  
+}  
+footer>h1{
+    margin: 16px 0px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}
+footer>div{
+   
+
+   margin-top: 64px;
+   text-align: center;
+   gap: 20px;
+
+}
+footer>div>img{
+   margin-left: 20px;
+
+}
