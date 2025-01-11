@@ -233,9 +233,7 @@ margin: 12px 0;
 
 /* Dr. Muhammad Yunus */
 .yunus{
-     background: rgb(255, 255, 255);
-   background-image: url(./assets/quote-bg.png);
-   background-repeat: no-repeat;
+    background: rgb(255, 255, 255);
     margin: 80px 160px;
     padding: 48px 24px 48px 24px;
     
@@ -245,14 +243,21 @@ margin: 12px 0;
 
    
 }
-.yunus>p{
+.yunus-box{
+   
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.yunus>div>p{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 10px;
 }
-.yunus>h2{
+.yunus>div>h2{
    margin-top: 12px;
    margin-bottom: 4px;
     color: rgba(14, 14, 14, 0.8);
@@ -444,23 +449,24 @@ select{
 background: rgb(198, 228, 214);
 padding: 80px 100px 80px 100px;
 }
-.newslatter>input{
-    width: 600px;
+.newslatter>div>input{
+    
    
     padding: 18px 40px 18px 40px;
     border-radius: 8px 0px 0px 8px;
 
     background: rgb(255, 255, 255);
     border: none;
-    flex: 1;
-    margin: 0;
+    flex-grow: 1;
+    
+    
 }
-.newslatter>input::placeholder {
+.newslatter> div>input::placeholder {
     color: #aaa;
 }
-.newslatter>button{
-    order: 1;
-flex-grow: 0;
+.newslatter>div>button{
+   
+
 margin: 0px 0px;
 border-radius: 0px 8px 8px 0px;
 
@@ -472,7 +478,11 @@ margin: 0;
 outline: none;
 
 }
-.newslatter>button:hover {
+.subscribe{
+    display: flex;
+
+}
+.newslatter> div>button:hover {
     background-color: #005f3e;
 }
 .title-news{
@@ -515,9 +525,11 @@ footer>div{
    margin-top: 64px;
    text-align: center;
    gap: 20px;
+   display: flex;
+   justify-content: center;
 
 }
 footer>div>img{
-   margin-left: 20px;
+  
 
 }
